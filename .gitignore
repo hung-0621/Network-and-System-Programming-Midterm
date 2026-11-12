@@ -1,8 +1,9 @@
 /docs
-/test
 server
 client
 /lib/
 *.o
 *.log
 *.pcap
+test/client_logs
+.vscode/
