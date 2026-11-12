@@ -1,2 +1,8 @@
 /docs
 /test
+server
+client
+/lib/
+*.o
+*.log
+*.pcap
