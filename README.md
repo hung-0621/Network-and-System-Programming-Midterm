@@ -2,6 +2,8 @@
 
 ---
 
+* Github: https://github.com/hung-0621/Network-and-System-Programming-Midterm
+
 ## 一、 系統設計說明（System Design Explanation）
 
 本專案採用 C 語言於 Linux 環境實作一套基於 TCP/IP 的多行程（Multi-Process）聊天室應用程式，嚴格遵循單一連線獨立子行程（`fork()`）原則，不採用任何執行緒（Threads）。系統由伺服器（`server`）、客戶端（`client`）以及雙方共同動態連結的共享函式庫（`libchatutils.so`）三大元件構成。
